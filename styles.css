@@ -1,0 +1,61 @@
+body {
+    background-color: #2f2fa2;
+}
+
+button{
+    background-color: #fc4672;
+    border-color: #fc4672;
+}
+
+input{
+    background-color: #fc4672;
+    border-color: #fc4672;
+}
+
+p{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.thevideo{
+     background-color: cornsilk;
+     border-color: cornsilk;
+ }
+
+
+
+.getback{
+    font-style: italic;
+    text-align: center;
+}
+
+#hey{
+    float: right;
+}
+
+#hey2{
+    float: right;
+}
+
+#heys{
+    float: left;
+}
+
+#heys1{
+    float: left;
+}
+
+#st{
+    position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 45%;
+
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #2f2fa2;
+}

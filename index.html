@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Unblocking Videos and Websites</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+<p class="getback">To get back to this home page, refresh the page</p>
+
+    <button id="heys1" class="collapsible">Unblock Specific Websites</button>
+    <div id="heys" class="content">
+        <p>Some sites may not work</p>
+        <input type="text" name="video" id="thesite" class="thevideo" placeholder="Website URL"/>
+        <input id="xt" type="submit" value="Unblock" onclick="usweb()"/>
+    </div>
+    <button id="hey" class="collapsible">Unblock Specific Youtube Videos</button>
+    <div id="hey2" class="content">
+        <p>Enter the video ID not the link</p>
+        <p>https://www.youtube.com/watch?v=XEOzx3_C0oo ------> XEOzx3_C0oo</p>
+
+
+        <input type="text" name="video" id="thevideo" class="thevideo" placeholder="Video ID"/>
+        <input id="sg" type="submit" value="Unblock" onclick="uvideo()"/>
+    </div>
+<input id="st" type="submit" value="Unblock All Websites" onclick="uwebsite()"/>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
+
+
