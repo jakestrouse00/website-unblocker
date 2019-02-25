@@ -23,7 +23,20 @@ p{
  }
 
 
-
+.disclaimer{
+    position: absolute;
+    width: 80%;
+    bottom: 15px;
+    font-size: xx-small;
+    color: #b3d4fc;
+}
+.sourcecode{
+    position: absolute;
+    width: 80%;
+    bottom: 10px;
+    color: #b3d4fc;
+    font-size: xx-small;
+}
 .getback{
     font-style: italic;
     text-align: center;
