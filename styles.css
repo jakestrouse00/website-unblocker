@@ -5,11 +5,13 @@ body {
 button{
     background-color: #fc4672;
     border-color: #fc4672;
+    font-weight: bold;
 }
 
 input{
     background-color: #fc4672;
     border-color: #fc4672;
+    font-weight: bold;
 }
 
 p{
