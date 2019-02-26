@@ -8,6 +8,7 @@ button{
     font-weight: bold;
 }
 
+
 input{
     background-color: #fc4672;
     border-color: #fc4672;
@@ -60,6 +61,7 @@ p{
     float: left;
 }
 
+
 #st{
     position:absolute;
     transition: .5s ease;
@@ -67,6 +69,7 @@ p{
     left: 45%;
 
 }
+
 /* Style the collapsible content. Note: hidden by default */
 .content {
     padding: 0 18px;
