@@ -8,4 +8,4 @@ To deploy and use Website Unblocker on your site, upload all files to your hosti
 A demo of Website Unblocker can be viewed and used at unblock.influxes.tk. This project is free and open source for anyone to use.
 
 # License
-Website Unblocker is released under the MIT license.
+Website Unblocker and all of its components is released under the MIT license.
