@@ -1,5 +1,5 @@
 body {
-    background-color: #2f2fa2;
+    background-color: #393939;
 }
 
 button{
@@ -16,8 +16,9 @@ input{
 }
 
 p{
-    color: whitesmoke;
+    color: white;
     font-weight: bolder;
+    font-family: Rockwell;
 }
 
 .thevideo{
@@ -44,21 +45,39 @@ p{
     font-style: italic;
     text-align: center;
 }
-
+#sg {
+	font-family: Rockwell;
+    font-weight: bolder;
+    color: white;
+    background-color: #FF5A09;
+    border-color: #fa5909;
+}
 #hey{
     float: right;
+	font-family: Rockwell;
+    font-weight: bolder;
+    color: white;
+    background-color: #FF5A09;
+    border-color: #fa5909;
 }
 
 #hey2{
     float: right;
+	background-color: #393939;
 }
 
 #heys{
     float: left;
+	background-color: #393939;
 }
 
 #heys1{
     float: left;
+	font-family: Rockwell;
+    font-weight: bolder;
+    color: white;
+    background-color: #FF5A09;
+    border-color: #fa5909;
 }
 
 
@@ -67,6 +86,11 @@ p{
     transition: .5s ease;
     top: 50%;
     left: 45%;
+	font-family: Rockwell;
+    font-weight: bolder;
+    color: white;
+    background-color: #FF5A09;
+    border-color: #fa5909;
 
 }
 
