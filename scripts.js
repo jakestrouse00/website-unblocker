@@ -5,7 +5,7 @@ function uwebsite() {
 
 function uvideo() {
     var thevalue = document.getElementById("thevideo").value;
-    document['write']('<style>*{margin:0;border:0;}</style><iframe src=\'https://www.youtube.com/embed/'+thevalue+'\' height=\'100%\' width=\'100%\'></iframe>');
+    document['write']('<style>*{margin:0;border:0;}</style><iframe src=\'https://ytunblock.glitch.me/downloadvid?v='+thevalue+'\' height=\'100%\' width=\'100%\'></iframe>');
 
 }
 
